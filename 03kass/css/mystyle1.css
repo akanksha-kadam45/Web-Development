@@ -1,0 +1,32 @@
+
+.section2{
+    top:0;
+    position: sticky;
+    background-color: rgb(217, 222, 225);
+
+}
+
+.section1{
+  height: 150px;
+  position: relative;
+}
+.section3{
+    top:50px;
+    position: sticky;
+}
+.section4{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 60px;
+}
+.section6{
+  background-color: rgb(72, 170, 108);
+}
+.section7{
+  background-color: rgb(252, 248, 244);
+}
+.section8{
+  color: rgb(237, 94, 182);
+}
+.section9{
+  color: rgb(124, 230, 194);
+}
