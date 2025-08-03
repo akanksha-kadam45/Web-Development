@@ -1,0 +1,15 @@
+.box{
+    background-color: rgb(225, 230, 235);
+}
+.section{
+    background-color:rgb(248, 244, 244);
+    height: 170px;
+    width: 60px;
+    position: fixed;
+    right: 0;
+    top: 260px;
+}
+.foot{
+    background-color: rgb(130, 124, 116);
+    height: 100px;
+}
