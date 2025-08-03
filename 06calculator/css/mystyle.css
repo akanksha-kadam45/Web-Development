@@ -1,0 +1,30 @@
+.section1{ 
+    background-color: rgb(217, 222, 225);
+    top:30px;
+    position: sticky;
+
+}
+.section2{
+    position: sticky;
+    top: 100px;
+    margin-left: 20px;    
+}
+.section3{
+    position: relative;
+    top: 90px;
+    padding-left: 20px;
+
+}
+.section4{
+    background-color:rgb(38, 213, 163);
+    
+}
+.section5{
+    background-color:rgb(209, 246, 247);
+    
+}
+.section6{
+    background-color:rgb(209, 246, 247);
+    
+    
+}

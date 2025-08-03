@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator 1</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        input[type=text] {
+            height: 65px;
+        }
+
+        button {
+            height: 65px;
+            width: 65px;
+            border-radius: 50%;
+        }
+
+        button:hover {
+            background-color: rgb(211, 184, 148);
+        }
+
+        .section {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="col-md-3 mx-auto mt-5 shadow-lg section">
+        <input type="text" class="form-control text-end" id="myctrl">
+
+        <div class="text-center mt-3">
+            <button type="button" onclick="clrVal()">C</button>
+            <button type="button" onclick="deloneDigit()">DEL</button>
+            <button type="button" onclick="catchVal('.')">.</button>
+            <button type="button" onclick="catchVal('%')">%</button>
+
+        </div>
+        <div class="text-center mt-3">
+            <button type="button" onclick="catchVal('7')">7</button>
+            <button type="button" onclick="catchVal('8')">8</button>
+            <button type="button" onclick="catchVal('9')">9</button>
+            <button type="button" onclick="catchVal('/')">/</button>
+
+        </div>
+        <div class="text-center mt-3">
+            <button type="button" onclick="catchVal('4')">4</button>
+            <button type="button" onclick="catchVal('5')">5</button>
+            <button type="button" onclick="catchVal('6')">6</button>
+            <button type="button" onclick="catchVal('*')">*</button>
+
+        </div>
+        <div class="text-center mt-3">
+            <button type="button" onclick="catchVal('1')">1</button>
+            <button type="button" onclick="catchVal('2')">2</button>
+            <button type="button" onclick="catchVal('3')">3</button>
+            <button type="button" onclick="catchVal('-')">-</button>
+
+        </div>
+        <div class="text-center mt-3">
+            <button type="button" onclick="catchVal('0')">0</button>
+            <button type="button" onclick="catchVal('00')">00</button>
+            <button type="button" onclick="catchVal('+')">+</button>
+            <button type="button" onclick="showResult()">=</button>
+
+        </div>
+    </div>
+
+    <script>
+        let x = document.getElementById('myctrl');
+        function catchVal(num) {
+            x.value = x.value + num;
+        }
+        function clrVal() {
+            x.value = "";
+        }
+        function deloneDigit() {
+            x.value = x.value.slice(0, -1);
+        }
+        function showResult() {
+            x.value = eval(x.value);
+        }
+    </script>
+</body>
+
+</html>
