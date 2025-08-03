@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    height: 90px;
+    background-color: #f9f5f5;
+    color: #dc4348;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+
+}
+
+.nav-bar1 {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-bar-a {
+    color: #dc4348;
+
+}
+
+.search {
+    position: relative;
+    margin-left: 300px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.section1-1 {
+    position: relative;
+}
+
+.button1 {
+    background-color: #dc4348;
+    width: 180px;
+    position: absolute;
+    top: 400px;
+    margin-left: 140px;
+    border-radius: 20px;
+}
+
+.button2 {
+    background-color: #dc4348;
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    margin-left: 140px;
+    border-radius: 20px;
+}
+
+.button3 {
+    background-color: #dc4348;
+    width: 160px;
+    position: absolute;
+    top: 400px;
+    margin-left: 160px;
+    border-radius: 20px;
+}
+
+.section2 {
+    position: relative;
+    text-align: center;
+    height: 450px;
+    display: flex;
+    
+}
+
+.section2-1 {
+    background-image: url(images/cafe-coffee-letter-down-img.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 0;
+
+}
+
+.section2-2 {
+    height: 400px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding-top: 100px;
+     display: flex;
+    left: 554px;
+    margin: auto;
+}
+.section3{
+    background-color:#fff;
+    position: relative;
+}
+.section3-1{
+    position: relative;
+    /*top: 50px;*/
+}
+.section3-2{
+    position: relative;
+    
+}
+
+.section3-2-a{
+    color: #838282;
+}
+a :hover{
+    color: #838282;
+}
