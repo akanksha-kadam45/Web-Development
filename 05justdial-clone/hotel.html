@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hotel</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+
+  <!--- nav start-->
+  <div class=" shadow-lg">
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+      <div class="container-fluid p-3">
+        <img src="images/logo.svg" alt="" width="10%">
+        <button class="navbar-toggler btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon btn-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-dark" href="javascript:void(0)">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  text-dark" href="#" role="button"
+                data-bs-toggle="dropdown">Browser</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="restorant.html">Restaurants</a></li>
+                <li><a class="dropdown-item" href="hotel.html">Hotels</a></li>
+                <li><a class="dropdown-item" href="beuty-spa.html">Beuty & Spa</a></li>
+                <li><a class="dropdown-item" href="education.html">Education</a></li>
+                <li><a class="dropdown-item" href="homedecore.html">Homedecor</a></li>
+                <li><a class="dropdown-item" href="hospital.html">Hospital</a></li>
+                <li><a class="dropdown-item" href="rentire.html">Renthire</a></li>
+                <li><a class="dropdown-item" href="contrator.html">Contractor</a></li>
+
+              </ul>
+            </li>
+          </ul>
+
+
+          <div class="row col-0">
+            <div class=" col-md-2  mx-1"></div>
+            <div class="col-md-1  mx-2">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">
+                Login
+              </button>
+              <!-- login Modal start-->
+              <div class="modal fade" id="login">
+                <div class="modal-dialog modal-sm">
+                  <div class="modal-content">
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <h5 class="text-center text-primary">login</h5>
+                      <form action="">
+                        <input type="email" name="email" placeholder="Enter Email" class="form-control mt-3">
+                        <input type="password" name="pwd" placeholder="password" class="form-control mt-3">
+                        <div class="text-center mt-3">
+                          <input type="submit" class="btn btn-primary" value="login">
+                        </div>
+                      </form>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- login Modal end-->
+          </div>
+
+          <div class=" col-md-1 p-2 mx-2">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg">
+              Register
+            </button>
+            <!-- register Modal start-->
+            <div class="modal fade" id="reg">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <h5 class="text-center text-primary">Register</h5>
+                    <form action="">
+                      <input type="text" name="nm" placeholder="Enter Name" class="form-control mt-3">
+                      <input type="number" name="no" placeholder="Enter phone number" class="form-control mt-3">
+
+                      <input type="email" name="email" placeholder="Enter Email" class="form-control mt-3">
+                      <input type="password" name="pwd" placeholder="password" class="form-control mt-3">
+                      <div class="text-center mt-3">
+                        <input type="submit" class="btn btn-primary" value="Register">
+                      </div>
+                    </form>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- register Modal end-->
+          </div>
+
+        </div>
+        <!---- modal end-->
+
+      </div>
+  </div>
+  </nav>
+  </div>
+  <!--- nav end-->
+</body>
+
+</html>

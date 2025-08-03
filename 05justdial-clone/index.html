@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>justdial</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+  <!--- nav start-->
+  <div class=" shadow-lg">
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+      <div class="container-fluid p-3">
+        <img src="images/logo.svg" alt="" width="10%">
+        <button class="navbar-toggler btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon btn-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-dark" href="javascript:void(0)">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  text-dark" href="#" role="button"
+                data-bs-toggle="dropdown">Browser</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="restorant.html">Restaurants</a></li>
+                <li><a class="dropdown-item" href="hotel.html">Hotels</a></li>
+                <li><a class="dropdown-item" href="beuty-spa.html">Beuty & Spa</a></li>
+                <li><a class="dropdown-item" href="education.html">Education</a></li>
+                <li><a class="dropdown-item" href="homedecore.html">Homedecor</a></li>
+                <li><a class="dropdown-item" href="hospital.html">Hospital</a></li>
+                <li><a class="dropdown-item" href="rentire.html">Renthire</a></li>
+                <li><a class="dropdown-item" href="contrator.html">Contractor</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <!---- modal start-->
+          <div class="row col-0">
+            <div class=" col-md-2  mx-1"></div>
+            <div class="col-md-1  mx-2">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">
+                Login
+              </button>
+              <!-- login Modal start-->
+              <div class="modal fade" id="login">
+                <div class="modal-dialog modal-sm">
+                  <div class="modal-content">
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <h5 class="text-center text-primary">login</h5>
+                      <form action="">
+                        <input type="email" name="email" placeholder="Enter Email" class="form-control mt-3">
+                        <input type="password" name="pwd" placeholder="password" class="form-control mt-3">
+                        <div class="text-center mt-3">
+                          <input type="submit" class="btn btn-primary" value="login">
+                        </div>
+                      </form>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- login Modal end-->
+          </div>
+
+          <div class=" col-md-1 p-2 mx-2">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg">
+              Register
+            </button>
+            <!-- register Modal start-->
+            <div class="modal fade" id="reg">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <h5 class="text-center text-primary">Register</h5>
+                    <form action="">
+                      <input type="text" name="nm" placeholder="Enter Name" class="form-control mt-3">
+                      <input type="number" name="no" placeholder="Enter phone number" class="form-control mt-3">
+
+                      <input type="email" name="email" placeholder="Enter Email" class="form-control mt-3">
+                      <input type="password" name="pwd" placeholder="password" class="form-control mt-3">
+                      <div class="text-center mt-3">
+                        <input type="submit" class="btn btn-primary" value="Register">
+                      </div>
+                    </form>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- register Modal end-->
+          </div>
+
+        </div>
+        <!---- modal end-->
+
+      </div>
+  </div>
+  </nav>
+  </div>
+  <!--- nav end-->
+
+  <!--- slide start-->
+  <div class="bg-white shadow p-3 col-md-10 mt-3 mx-auto">
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner text-center">
+        <div class="carousel-item active text-center">
+          <img src="images/slide1.webp" alt="Los Angeles" class="d-block w-100 text-center">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slide2.avif" alt="Chicago" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slide3.avif" alt="New York" class="d-block w-100">
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+  <!--- slide end-->
+  <!--- 1 st row START-->
+  <div class=" row mt-5">
+    <div class="col-6 col-md-3 text-center p-2 ">
+      <a href="restorant.html" class="text-decoration-none">
+        <img src="images/restorant.svg" alt="" width="30%" class=" shadow-lg">
+        <h5 class="mt-2 text-dark  ">Restaurants</h5>
+
+      </a>
+
+    </div>
+    <div class="col-6 col-md-3 text-center p-2 ">
+      <a href="hotel.html" class="text-decoration-none">
+        <img src="images/hotel.svg" alt="" width="30%" class=" shadow-lg">
+        <h5 class="mt-2 text-dark">Hotels</h5>
+
+      </a>
+
+    </div>
+    <div class="col-6 col-md-3 text-center p-2 ">
+      <a href="beuty-spa.html" class="text-decoration-none">
+        <img src="images/beuty-spa.svg" alt="" width="30%" class=" shadow-lg">
+        <h5 class="mt-2 text-dark">Beuty & Spa</h5>
+
+      </a>
+
+    </div>
+    <div class="col-6 col-md-3 text-center p-2 ">
+      <a href="education.html" class="text-decoration-none">
+        <img src="images/education.svg" alt="" width="30%" class=" shadow-lg">
+        <h5 class="mt-2 text-dark">Education</h5>
+
+      </a>
+
+    </div>
+
+  </div>
+  <!--- 1st  end-->
+  <!--- 2nd-->
+  <div class=" row mt-5">
+    <div class="col-6 col-md-3 text-center p-2 ">
+      <a href="homedecore.html" class="text-decoration-none">
+        <img src="images/homedecor.svg" alt="" width="30%" class=" shadow-lg">
+        <h5 class="mt-2 text-dark">Homedecor</h5>
+
+      </a>
+
+    </div>
+    <div class="col-6 col-md-3 text-center p-2 ">
+      <a href="hospital.html" class="text-decoration-none">
+        <img src="images/hospital.svg" alt="" width="30%" class=" shadow-lg">
+        <h5 class="mt-2 text-dark">Hospital</h5>
+
+      </a>
+
+    </div>
+    <div class="col-6 col-md-3 text-center p-2 ">
+      <a href="rentire.html" class="text-decoration-none">
+        <img src="imageS/renthire.svg" alt="" width="30%" class=" shadow-lg">
+        <h5 class="mt-2 text-dark">Renthire</h5>
+
+      </a>
+
+    </div>
+    <div class="col-6 col-md-3 text-center p-2 ">
+      <a href="contrator.html" class="text-decoration-none">
+        <img src="images/contractor-2022.svg" alt="" width="30%" class=" shadow-lg">
+        <h5 class="mt-2 text-dark">Contractor</h5>
+
+      </a>
+    </div>
+  </div>
+  <!--- 2nd   row end-->
+
+</body>
+
+</html>
